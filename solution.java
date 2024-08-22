@@ -1,9 +1,4 @@
-import java.util.Scanner;
-
-public class Main {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter a binary string:");
-        String binaryString = scanner.nextLine();
+public static int minFlipsMonoIncr(String S) {
+        int flipCount = 0;
+        int onesCount = 0;
     }
-}
